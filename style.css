@@ -1,0 +1,61 @@
+/* style.css */
+
+/* Set the background to a linear gradient */
+body {
+    background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%); /* Gradient from purple to pink */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the form container and style it */
+#form {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    width: 300px;
+    padding: 20px;
+    margin: 100px auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Style the form title */
+#form h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style labels and input fields */
+label {
+    color: #555;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style the submit button */
+#btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
